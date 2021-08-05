@@ -5,5 +5,5 @@
 3) we've used python nltk package and matplotlib for text analytics
 4) For sentiment analysis we're using an unsupervised word list based approach using libraries like textblob, afinn, vader lexicon
 5) For lda (topic modelling) we're using gensim library and the topics are visualizer with the help of pyldaviz library
-6) For maintainability, the code is organized into modules.
+6) For maintainability, the code is organized into modules. The sentiment analysis model and plots are in model viz module and the text analytics and visualization are in text viz module
 7) The application is dockerized and deployed to heroku
